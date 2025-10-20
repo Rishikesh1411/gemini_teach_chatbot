@@ -77,7 +77,9 @@ Run the application from your PowerShell terminal using the Streamlit command:
 streamlit run main.py
 ```
 
-The application will automatically open in your default web browser at https://geminiteachchatbot-32cnee2kbzim8igfmyr9fe.streamlit.app/.
+## 🚀 Live Demo
+
+👉 [Click here to try the Gemini Chatbot](https://geminiteachchatbot-32cnee2kbzim8igfmyr9fe.streamlit.app/)
 
 📚 Technologies Used
 -------------------
@@ -96,4 +98,5 @@ If you want, I can also:
 - Add tests or a small demo conversation script.
 
 Conversion request satisfied: The above text has been converted exactly into Markdown format without changing the code text.
+
 
