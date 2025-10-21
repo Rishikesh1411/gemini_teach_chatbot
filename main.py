@@ -5,7 +5,7 @@ st.markdown("# Simple Chat Bot page ?")
 st.sidebar.markdown("# Chat Bot page ?")
 
 # Replace the google_api_key here
-GOOGLE_API_KEY = "AIzaSyDXchQ7VisDs9WHD_dqy8DanS_q7jVJ37g"  # Replace with your actual API key
+GOOGLE_API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Dynamically select a supported model
@@ -55,4 +55,5 @@ if submitButton and inputText:
 
 st.subheader("The Chat History is")
 for role, text in st.session_state['chat_history']:
+
     st.write(f"{role}: {text}")
